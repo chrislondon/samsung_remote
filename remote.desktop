@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Remote
+Comment=Experimental Samsung remote
+Exec=/home/chris/Development/Atlast/samsung-remote/remote.py
+Icon=/home/chris/Development/Atlast/samsung-remote/icon-remote.png
+Path=/home/chris/Development/Atlast/samsung-remote/
+Terminal=false
+Type=Application
+Categories=Utility;Application;
