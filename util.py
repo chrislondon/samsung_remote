@@ -7,9 +7,9 @@ import base64
 src     = '192.168.1.8'       # ip of remote
 mac     = '00-15-17-F3-C0-B8' # mac of remote
 remote  = 'IP Remote'         # remote name
-dst     = '192.168.1.7'       # ip of tv
+dst     = '192.168.1.3'       # ip of tv
 app     = 'python'            # iphone..iapp.samsung
-tv      = 'LE32C650'          # iphone.LE32C650.iapp.samsung
+tv      = 'UE32ES6800'          # iphone.UE32ES6800.iapp.samsung
 
 def push(key):
   new = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

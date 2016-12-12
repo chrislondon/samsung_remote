@@ -73,6 +73,7 @@ class MyWindow(Gtk.Window):
             grid.attach(btn, button['x'], button['y'], button['w'], button['h'])
 
     def on_click(self, object, key):
+        print 'Pushing %s' % key
         push(key);
 
 win = MyWindow()
